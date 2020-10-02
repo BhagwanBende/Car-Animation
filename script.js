@@ -13,7 +13,7 @@ function playsound()
     audio.play();
 }
 
-function stopsound()
+function pauseound()
 {
     
     play.attributes[1].value = "javascript:playsound()"
