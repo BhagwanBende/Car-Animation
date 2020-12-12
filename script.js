@@ -8,12 +8,12 @@ var play = document.getElementById('soundbtn');;
 function playsound()
 {
     
-    play.attributes[1].value = "javascript:stopsound()"
+    play.attributes[1].value = "javascript:pausesound()"
     play.innerHTML = "Sound Off.."
     audio.play();
 }
 
-function pauseound()
+function pausesound)
 {
     
     play.attributes[1].value = "javascript:playsound()"
