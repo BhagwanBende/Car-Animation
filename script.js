@@ -4,7 +4,7 @@ audio.loop=true;
 document.body.appendChild(audio);
 
 
-var play = document.getElementById('soundbtn');;
+var play = document.getElementById('soundbtn');
 function playsound()
 {
     
